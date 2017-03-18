@@ -16,5 +16,5 @@
 <img src="https://github.com/nkkumawat/Safe-Nit/raw/master/safenit1/screenshots/h7.png" width="250">
 <img src="https://github.com/nkkumawat/Safe-Nit/raw/master/safenit1/screenshots/h8.png" width="250">
 <img src="https://github.com/nkkumawat/Safe-Nit/raw/master/safenit1/screenshots/h9.png" width="250">
-<img src="https://github.com/nkkumawat/Safe-Nit/raw/master/safenit1/screenshots/h10.png" width="250">
+
 
