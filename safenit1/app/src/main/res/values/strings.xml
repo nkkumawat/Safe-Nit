@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">Safenit</string>
+    <string name="hint_email">Email</string>
+    <string name="hint_password">Password</string>
+    <string name="hint_name">Fullname</string>
+    <string name="btn_login">LOGIN</string>
+    <string name="btn_register">REGISTER</string>
+    <string name="btn_link_to_register">Not a member? Sign up now.</string>
+    <string name="btn_link_to_login">Already registred! Login Me.</string>
+    <string name="welcome">Welcome</string>
+    <string name="btn_logout">LOGOUT</string>
+    <string name="name">Fullname</string>
+    <string name="title_activity_main_navigation">Home</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Help</string>
+    <string name="aboutus1">Safe Nit is a Initiative to be safe and preoblem free at whole NIT campus </string>
+    <string name="aboutus2">You can capture any image which is not normal for your safety or may cause some problem and drop it in this app.  </string>
+    <string name="aboutus3">Give feedback to improve this idea </string>
+    <string name="aboutus4">the picture will act as a avidance before the top authority who is responsiblefor this. </string>
+
+
+    <string name="title_activity_welcome">Home Screen</string>
+    <string name="next">NEXT</string>
+    <string name="skip">SKIP</string>
+    <string name="start">GOT IT</string>
+    <string name="developername">Narendra Kumawat</string>
+    <string name="developerintro">B.Tech 2<sup>nd</sup> yr \n Computer Engineering\n NIT Kurukshetra.\nEmail : narendra_11510145@nitkkr.ac.in </string>
+
+
+</resources>

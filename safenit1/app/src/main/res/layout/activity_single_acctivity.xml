@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.sonu.safenit1.singleAcctivity">
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_alignParentTop="true"
+    android:layout_alignParentStart="true">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:weightSum="1"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="8dp">
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/bg_main"
+            android:minHeight="?attr/actionBarSize"
+            android:theme="?attr/actionBarTheme" />
+</RelativeLayout>
+
+       <RelativeLayout
+           android:layout_width="match_parent"
+           android:layout_height="match_parent">
+
+           <ImageView
+               android:id="@+id/uploadedimage1"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:adjustViewBounds="true"
+               android:src="@drawable/outline"
+               app:srcCompat="@drawable/avatar"
+               android:layout_alignParentTop="true"
+               android:layout_alignParentEnd="true" />
+       </RelativeLayout>
+
+        <TextView
+            android:id="@+id/Titleshow11"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:text="Title"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/DiscriptionShow1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:text="Discription"
+            android:textColor="@color/input_register" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.40">
+
+            <ImageView
+                android:id="@+id/likebtn1"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_marginLeft="4dp"
+                android:layout_marginTop="4dp"
+                app:srcCompat="@drawable/like" />
+
+            <TextView
+                android:id="@+id/uploaderName1"
+                android:layout_width="84dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="0dp"
+                android:gravity="right"
+                android:textColor="@color/input_register"
+                android:textSize="12sp"
+                android:layout_alignTop="@+id/likecount11"
+                android:layout_toStartOf="@+id/profilePics1"
+                android:layout_marginEnd="14dp" />
+
+            <ImageView
+                android:id="@+id/profilePics1"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_marginEnd="23dp"
+                android:layout_marginLeft="270dp"
+                app:srcCompat="@drawable/avatar"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true" />
+
+            <TextView
+                android:id="@+id/likecount11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_alignStart="@+id/likebtn"
+                android:layout_marginLeft="26dp"
+                android:layout_marginTop="7dp"
+                android:text="0" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:layout_below="@+id/profilePics1"
+                android:layout_alignParentEnd="true"
+                android:id="@+id/relativeLayout">
+
+            </RelativeLayout>
+
+            <ImageView
+                android:id="@+id/deletepost"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_alignTop="@+id/likebtn1"
+                android:layout_marginLeft="6dp"
+                android:layout_marginTop="2dp"
+                android:layout_toEndOf="@+id/likecount11"
+                android:background="@color/white"
+                app:srcCompat="@drawable/delete" />
+
+            <ImageView
+                android:id="@+id/downloadButton"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_above="@+id/relativeLayout"
+                android:layout_marginBottom="3dp"
+                android:layout_marginLeft="5dp"
+                android:layout_toEndOf="@+id/deletepost"
+                app:srcCompat="@drawable/download" />
+        </RelativeLayout>
+
+    </LinearLayout>
+</ScrollView>
+
+    <TextView
+        android:id="@+id/usertoolbar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="36dp"
+        android:layout_marginTop="18dp"
+        android:tag="user"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+
+</RelativeLayout>

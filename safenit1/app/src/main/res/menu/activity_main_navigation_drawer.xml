@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_upload"
+            android:icon="?attr/actionModePasteDrawable"
+            android:title="About App" />
+        <item
+            android:id="@+id/nav_gallery_upload"
+            android:icon="@android:drawable/stat_sys_upload_done"
+            android:title="Upload Image" />
+        <item
+            android:id="@+id/nav_slideshow"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Uploaded By Me" />
+        <item
+            android:id="@+id/nav_manage"
+            android:icon="@android:drawable/ic_menu_edit"
+            android:title="Feedback" />
+    </group>
+
+    <item android:title="User">
+        <menu>
+            <item
+                android:id="@+id/nav_profile"
+                android:icon="@android:drawable/ic_menu_myplaces"
+                android:title="Profile" />
+            <item
+                android:id="@+id/nav_logout"
+                android:icon="@android:drawable/ic_lock_power_off"
+                android:title="Logout" />
+        </menu>
+    </item>
+    <item android:title="Developer`s Corner">
+        <menu>
+            <item
+                android:id="@+id/nav_developer"
+                android:icon="@android:drawable/ic_menu_sort_alphabetically"
+                android:title="Developers" />
+
+        </menu>
+    </item>
+
+</menu>

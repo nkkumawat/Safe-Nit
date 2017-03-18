@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "789945034789",
+    "firebase_url": "https://safenit1-86edc.firebaseio.com",
+    "project_id": "safenit1-86edc",
+    "storage_bucket": "safenit1-86edc.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:789945034789:android:5fa6175e472f7640",
+        "android_client_info": {
+          "package_name": "com.example.sonu.safenit1"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "789945034789-p837snek9gpua8lgp1jkedlec3b98uvj.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.sonu.safenit1",
+            "certificate_hash": "304712b06fb8e5cf564de70c35cb758d39c726e4"
+          }
+        },
+        {
+          "client_id": "789945034789-bm7q51vpkionc528sd96l86rvvvrsbg7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAxN-Mx-R2Ms7VXUYAC0-oXVXgGl_vCEVc"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "789945034789-bm7q51vpkionc528sd96l86rvvvrsbg7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
